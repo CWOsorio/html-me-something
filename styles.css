@@ -1,0 +1,89 @@
+body {
+    background-color:whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 12pt;
+    font-weight: 400;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}   
+
+header {
+    background-color:darkgray;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+main {
+    width: 100%;
+    padding: 60px 100px;
+    box-sizing:border-box;
+    
+}
+
+p{
+    text-align: justify;
+    margin:auto;
+}
+
+img {
+    width: 50px;
+    margin: 10px 10px;
+}
+
+footer {
+    color: black;
+    background-color: lightgray;
+    text-align: Center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+#page-subtitle {
+    color: white;
+    text-align: center;
+
+}
+/*****************************/
+/* Styling Header Image Menu */
+/*****************************/
+#header-image-menu{
+	top: 10px;
+	position: relative;
+}
+
+#header-image-menu img{
+	width: 100%;
+	margin: none;
+	padding: none;
+}
+
+#image-text{
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	font-family: 'Roboto';
+	color: #000;
+	transform: translate(-30%, -30%);
+	text-align: center;
+}
+
+
+.thumbnail:hover {
+    position:relative;
+    top: -25px;
+    left: -35px;
+    width: 500px;
+    height:auto;
+    display: block;
+    z-index: 999;
+    
+}
